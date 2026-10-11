@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFF;
+    color: #191919;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+
+/*  Início / Banner */
+
+.banner {
+    background-color: #202832;
+    background-image: url("images/background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 70px 8%;
+    color: #FFF;
+    min-height: 550px;
+}
+
+.banner-esquerda {
+    width: 45%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.logo {
+    margin-bottom: 35px;
+}
+
+.logo img {
+    width: 120px;
+}
+
+.banner-esquerda h1 {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 30px;
+}
+
+.botoes-banner {
+    display: flex;
+    gap: 15px;
+}
+
+.botao {
+    display: inline-block;
+    padding: 13px 28px;
+    border-radius: 30px;
+
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.comprar {
+    background-color: #FFF;
+    color: #191919;
+}
+
+.veja-mais {
+    background-color: #FFF;
+    color: #191919;
+    opacity: 0.7;
+}
+
+.banner-direita {
+    width: 45%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-direita img {
+    width: 100%;
+    max-width: 420px;
+    object-fit: contain;
+}
+
+/* Produtos */
+
+.produtos {
+    background-color: #FFF;
+    padding: 70px 8%;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.lista-produtos {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.card-produto {
+    background-color: #DBDBDB;
+
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+    min-height: 180px;
+    overflow: hidden;
+
+    border-top-right-radius: 55px;
+    border-bottom-left-radius: 55px;
+}
+
+.card-produto img {
+    width: 220px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.informacoes-produto {
+    padding: 20px 25px;
+}
+
+.informacoes-produto h3 {
+    font-size: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.informacoes-produto p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+.botao-produtos {
+    margin-top: 35px;
+    background-color: #202832;
+    color: #FFF;
+}
+
+
+/* Detalhes */
+
+.detalhes {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+
+    background-color: #DBDBDB;
+}
+
+.imagem-detalhes {
+    width: 48%;
+}
+
+.imagem-detalhes img {
+    width: 100%;
+    height: 100%;
+    min-height: 500px;
+
+    object-fit: cover;
+    border-top-right-radius: 140px;
+}
+
+.textos-detalhes {
+    width: 42%;
+    padding: 70px 5% 70px 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.bloco-detalhe h2 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.bloco-detalhe p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.8;
+    margin-bottom: 12px;
+}
+
+
+/* Rodapé */
+
+.rodape {
+    background-color: #202832;
+    color: #FFF;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    padding: 60px 8%;
+    gap: 40px;
+}
+
+.rodape h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.rodape h3 {
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.rodape p {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1.8;
+}
+
+.contato {
+    width: 40%;
+}
+
+.integrantes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.escritorio,
+.redes-sociais {
+    width: 25%;
+}
+
+.redes-sociais p {
+    margin-bottom: 8px;
+}
